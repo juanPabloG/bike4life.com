@@ -1,0 +1,82 @@
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+@media screen and (min-width: 280px){
+    .social2{
+    position: fixed;
+    right:-0;
+    top: 550px;
+    z-index: 2000;
+}
+@media screen and (min-width: 320px){
+    .social2{
+    position: fixed;
+    right:-0;
+    top: 480px;
+    z-index: 2000;
+
+
+}
+
+}@media screen and (min-width: 360px){
+    .social2{
+    position: fixed;
+    right:-0;
+    top: 550px;
+    z-index: 2000;
+
+
+}
+@media screen and (min-width: 540px){
+    .social2{
+    position: fixed;
+    right:-0;
+    top: 600px;
+    z-index: 2000;
+
+}
+@media screen and (min-width: 768px){
+    .social2{
+    position: fixed;
+    right:-0;
+    top: 900px;
+    z-index: 2000;
+
+}
+@media screen and (min-width: 1023px){
+    .social2{
+        position: fixed;
+        right:-20;
+        top: 600px;
+        z-index: 2000;
+    }
+
+.social ul {
+    list-style: none;
+
+}
+.social ul li a {
+    display:inline-block;
+    color: #fff;
+    background: #0000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transitions: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li .icon-facebook {background:#fff;}
+.social ul li .icon-twitter {background:#fff;}
+.social ul li .icon-pinterest {background:#fff;}
+.social ul li .icon-whatsapp {background:#fff;}
+.social ul li .icon-youtube {background:#fff;}
+.social ul li .icon-instagram {background:#fff;}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+    background: #000;
+
+}
