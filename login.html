@@ -204,15 +204,17 @@
                 <!-----registro-->
                 
                 <h2 class="is-size-4">Registro</h2>
-                <form action="php/registro_usuario_be.php" method="POST" class="form-control">
-                    <input type="text" placeholder="Nombre Completo" class="form-control-field" name="nombre_completo">
+                <form action="php/registrar.php" method="POST" class="form-control">
+                    <input type="text" name="Full_name" placeholder="Nombre Completo" size="50" required>
+                    <br>
 
-                    <input type="text" placeholder="Email" class="form-control-field" name="correo">
+                    <input type="email" name="Email" placeholder="Email@email.com" size="50" required>
+                    <br>
+        
+                    <input type="password" name="Passwd" placeholder="Password" size="50" required>
+                    <br>
 
-                    <input type="password" placeholder="Password" class="form-control-field" name="contrasena">
-
-                    
-                    <button class="btn btn-default btn-primary">Crear cuenta</button>
+                    <input type="submit" name="CheckIn" value="CREAR CUENTA">
                 </form>
                  
             </div>
